@@ -7,9 +7,11 @@ int main() {
     cin >> cat >> K;
 
     int arr[cat];
+
     for (int i = 0; i < cat; i++) {
         cin >> arr[i];
     }
+
 
     sort(arr, arr + cat);
 
@@ -31,4 +33,3 @@ int main() {
     return 0;
 }
  
-
