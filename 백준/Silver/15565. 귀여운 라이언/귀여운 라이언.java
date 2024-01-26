@@ -1,7 +1,9 @@
+package day_17;
+
 import java.io.*;
 import java.util.*;
 
-public class Main{
+public class baek_15565a {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -24,15 +26,20 @@ public class Main{
      	}
      	// 투 포인터 
      	int start = 0, end = 0;
-     	int count = 0; // '1'의 개수를 세는 변수
+     	int count = 0; // '1'의 개수 추적 
      	int min = Integer.MAX_VALUE;
 
-     	while (end < lion.size()) {
-     	    count++;
+     	while (end < lion.size()) { // end를 인덱스 끝까지 보낸다 
+     	    if (arr[lion.get(end)] == 1) { // 항상 참 
+     	        count++;                               
+     	    }
 
-     	    if (count >= K) {
+     	    while (count >= K) { // count가 K에 도달하면 시작 
      	        min = Math.min(min, lion.get(end) - lion.get(start) + 1);
-     	        count--;
+
+     	        if (arr[lion.get(start)] == 1) {
+     	            count--; // start가 이동하므로 1의 개수가 감소 
+     	        }
      	        start++;
      	    }
 
