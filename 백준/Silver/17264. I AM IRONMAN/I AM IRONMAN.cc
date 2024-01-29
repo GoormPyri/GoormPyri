@@ -10,7 +10,7 @@ int main() {
     cin >> W >> L >> G;
 
     // 해킹한 플레이어 이름과 승점을 저장할 맵
-    map<string, int> playerScores;
+    map<string, int> m;
 
     // 플레이어 정보 (이름, W, L) 입력
     for (int i = 0; i < P; i++) {
@@ -18,9 +18,9 @@ int main() {
         cin >> name >> result;
 
         if (result == "W") {
-            playerScores[name] = W;
+            m[name] = W;
         } else {
-            playerScores[name] = -L;
+            m[name] = -L;
         }
     }
 
@@ -36,8 +36,8 @@ int main() {
             score = 0;
 
         // 이름이 있는 경우
-        if (playerScores.find(name) != playerScores.end()) {
-            score += playerScores[name];
+        if (m.find(name) != m.end()) {
+            score += m[name];
         } else { // 명단에 없는 이름
             if (score < L) {
                 score = 0;
