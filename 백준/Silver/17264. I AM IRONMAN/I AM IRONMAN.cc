@@ -9,6 +9,7 @@ int main() {
     cin >> W >> L >> G;
 
     // 해킹한 플레이어 이름과 승점을 저장할 맵
+
     map<string, int> playerScores;
 
     // 플레이어 정보 (이름, W, L) 입력
@@ -17,6 +18,7 @@ int main() {
         cin >> name >> result;
 
         if (result == "W") {
+
             playerScores[name] = W;
         } else {
             playerScores[name] = -L;
@@ -56,4 +58,6 @@ int main() {
     }
 
     return 0;
+
 }
+
