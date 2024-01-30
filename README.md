@@ -1,8 +1,10 @@
-# GoormPyri
+# GoormPyri ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
 * 구름톤 트레이닝 풀스택 6회차에 소속된 파이리팀의 알고리즘 스터디입니다. 
 * [Study Notion](https://www.notion.so/70eb9ef5d3f5411c9dc0b1349dbb2fe2)
 
 <img width="1000" alt="구름톤트레이닝" src="https://github.com/GoormPyri/GoormPyri/assets/144209738/943bfe69-6b8e-4f2e-b446-4597adee5960">
+
 
 ## 🫂 구성원
 |이름|언어|이메일|Blog|Github|
