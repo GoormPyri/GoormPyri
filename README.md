@@ -6,6 +6,11 @@
 <img width="1000" alt="구름톤트레이닝" src="https://github.com/GoormPyri/GoormPyri/assets/144209738/943bfe69-6b8e-4f2e-b446-4597adee5960">
 
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leesoeun2746)](https://solved.ac/leesoeun2746/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=lgh8079)](https://solved.ac/lgh8079/)
+
+
+
 ## 🫂 구성원
 |이름|언어|이메일|Blog|Github|
 |:---:|:---:|:---:|:---:|:---:|
