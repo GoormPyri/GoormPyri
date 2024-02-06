@@ -25,4 +25,5 @@
 
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leesoeun2746)](https://solved.ac/leesoeun2746/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=eunjin4671)](https://solved.ac/eunjin4671/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=lgh8079)](https://solved.ac/lgh8079/)
